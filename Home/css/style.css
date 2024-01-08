@@ -1,0 +1,17 @@
+body{
+    background-color: #24353F;
+}
+
+#home{
+    color: #17A2B8 !important;
+  height:75vh;
+}
+
+.home{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.721);
+}
+
+p{
+    font-size: 40px;
+    color: #17A2B8;
+}

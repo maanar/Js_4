@@ -1,0 +1,50 @@
+<html>
+  <head>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+     
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="signup w-50 m-auto p-5 my-5 " >
+        <h1 class="text-center">Smart Login System</h1>
+        <input
+          class="form-control my-3"
+          type="text"
+          id="nameInput"
+          placeholder="Enter Your Name"
+        />
+      
+
+      
+        <input
+          class="form-control my-3"
+          type="email"
+          id="emailInput"
+          placeholder="Enter Your Email"
+        />
+    
+     
+        <input
+          class="form-control my-3"
+          type="password"
+          id="passwordInput"
+          placeholder="Enter Your PassWord"
+        />
+         <p id="alertMassege" class="d-none text-center"></p>
+      <div class="text-center">
+        <button onclick="signUp()" class="btn btn-outline-info my-3  w-100 " id="sign"><a href="">Sign Up</a></button>
+      </div>
+      <p class="py-3 text-center">You have an account? <a href="../Login/index.html">Sign in</a> </p>
+    </div>
+    
+    
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
